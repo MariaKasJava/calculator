@@ -5,7 +5,7 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
-public class Polzovatel {
+public class Polzovatel {//better to name it user
     public Calculator calculator = new Calculator();
     public List<Integer> listCalculation = new ArrayList<>();
 
@@ -13,7 +13,7 @@ public class Polzovatel {
 
     public int n;
     public int c;
-    public int  otvet ;
+    public int  otvet ;//naming variables in english is very important
     public void print() {
 
         System.out.println("enter the 1 st number");
