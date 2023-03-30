@@ -4,26 +4,22 @@ public class Calculator {
 
 
     public int suma(int n, int x) {
-        int c = n + x;
-        return c;
+        return n + x;
     }
 
     public int umnogenie(int n, int x) {
-        int c = n * x;
-        return c;
+        return n * x;
     }
 
     public int restar(int n, int x) {
-        int c = n - x;
-        return c;
+        return n - x;
     }
 
     public int factorial(int n) {
         if (n == 0) {
             return 1;
         }
-        int c = n * factorial(n - 1);
-        return c;
+        return n * factorial(n - 1);
     }
 
 }
